@@ -1,9 +1,8 @@
-
+env:
+  global:
+    secure: hn5BsblCBDDWBZ18PXDqOQ/KsapPLi1yjnxeWAo3q2+LG6EWuN/qQuJWzPzlCOmigIu6KavyF7DyLZvzfEJCQh9QW20MmIHqz07dKkGoyI/3EixhYjvSpYwm4a4YcxB9J0EgIBN3Rsj1JtbRqDF+UrPFdZrzoyJqV/nIWRLyfIf4Ssyd4lxIDJbEEzH9+ExvTdo0pqIJOy5/27OvnAAp7oH6z1YfSvP7APoMVdRe5a0mklmhkaePDIPQxaz/JtGRjuXNhdhCXtnE/2rZSJDyXNd9g1x+dwJ7pM5Vy1ilE8YwHm9vDZxBtMfeMPM2Flo45265/oty0UhXRDQYQk4pmxIwVYUBfhR+m4vmHw0XlxpQD2lwmeFZ+1sWEr5j2lRSFvCWGmiSS6+ZeEFXv+8P0wex5NrlBT6bfRAyu6L4yuglmN6E562tvY3Z7v4paXKWbyXoyGOfLRKmeOM8b0lOO9PP+54qO41aIzip148VIoyt/0eTaXCfz0rE5LjYTzuD0p7nqb38PIei8YxaoA2jUzJbj2O+xG+kXLygRdgLvVyO+5QTbmvmF8mSDD/tYg4zfCxAF37IDYCu6FPm5dz5kF6iz5ebY9K3LLQYwvS4jOMkv4pJe+Sqr03dRJ+tieQeZyp9mQKHXKLGbagQkGS/3viIge9G3UMekcS+bsagDCw=
 after_success:
 - "./scripts/travis/auto-deploy.sh"
 language: node_js
 git:
   depth: 1
-before_install:
-- openssl aes-256-cbc -K $encrypted_c4663f388741_key -iv $encrypted_c4663f388741_iv
-  -in github_deploy_key.enc -out github_deploy_key -d
