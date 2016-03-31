@@ -82,6 +82,9 @@
 				linear-gradient(to right, #78C850 50%, #A040A0 50%)
 				#78C850;
 			}
+    &--sl-shopping {
+			background:#F57E14 url(../images/sl-shopping.svg) 50% 50% / 65% auto no-repeat;
+			}
 		&--soundslice {
 			background:#FFF url(../images/soundslice.svg) 50% 50% / 45% auto no-repeat;
 			}
@@ -94,6 +97,12 @@
 		&--voice-memos {
 			background:#673AB7 url(../images/voice-memos.svg) 50% 50% / auto 80% no-repeat;
 			}
+    &--wave-pd1 {
+      background:#191622 url(../images/wave-pd1.svg) 50% 50% / 48% auto no-repeat;
+    }
+    &--webnfc {
+      background:#FFC107 url(../images/webnfc.svg) 50% 50% / 48% auto no-repeat;
+    }
 		&--wiki-offline {
 			background:
 				url(../images/wiki-offline.svg) 50% 50% / 55% auto no-repeat,
@@ -102,12 +111,6 @@
 			}
 		&--2048-puzzle {
 			background:#EDC500 url(../images/2048-puzzle.svg) 50% 50% / 65% auto no-repeat;
-			}
-		&--wave-pd1 {
-			background:#191622 url(../images/wave-pd1.svg) 50% 50% / 48% auto no-repeat;
-			}
-		&--webnfc {
-			background:#FFC107 url(../images/webnfc.svg) 50% 50% / 48% auto no-repeat;
 			}
 		&--suggest {
 			background:#282828 url(../images/suggest.svg) 50% 50% / 20% auto no-repeat;

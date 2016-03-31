@@ -12,14 +12,15 @@ What is progressive web app? See “[Progress Web Apps](https://developer.chrome
 - [Inbox Attack](https://andreasbovens.github.io/inbox-attack/)
 - [Oumy](https://www.oumy.com/)
 - [Pokedex](https://www.pokedex.org/)
+- [SL-Shopping](https://sergiolopes.github.io/shopping/)
 - [Soundslice](https://www.soundslice.com/)
 - [Trained to Thrill](https://jakearchibald.github.io/trained-to-thrill/)
 - [Twitter](https://twitter.com/)
 - [Voice Memos](https://voice-memos.appspot.com/)
+- [Wave-PD1](https://alexgibson.github.io/wavepad/)
 - [Wiki Offline](https://wiki-offline.jakearchibald.com/)
 - [2048](https://2048-opera-pwa.surge.sh)
 - [Get Kana!](https://getkana.com/app)
-- [Wave-PD1](https://alexgibson.github.io/wavepad/)
 
 ## Development
 
